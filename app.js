@@ -50,7 +50,7 @@ app.get("/",(req,res)=>{
         "Allow-access-Allow-Origin": '*'
     })
     return res.redirect('signup.html');
-}).listen(4500);
+}).listen(3000);
 
 
 console.log("Listening on PORT 4500");
